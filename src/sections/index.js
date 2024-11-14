@@ -7,7 +7,6 @@ import Subscribe from "./Subscribe";
 import SuperQuality from "./SuperQuality";
 import CustomerReviews from "./CustomerReviews";
 
-
 export {
   Hero,
   PopularProducts,
