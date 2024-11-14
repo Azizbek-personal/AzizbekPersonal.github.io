@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -8,10 +8,10 @@ module.exports = {
     fontSize: {
       xs: ['12px', '16px'],
       sm: ['14px', '20px'],
-      base: ['16px', '19.5px'],
-      lg: ['18px', '21.94px'],
-      xl: ['20px', '24.38px'],
-      '2xl': ['24px', '29.26px'],
+      base: ['16px', '19px'],
+      lg: ['18px', '22px'],
+      xl: ['20px', '24px'],
+      '2xl': ['24px', '30px'],
       '3xl': ['28px', '50px'],
       '4xl': ['48px', '58px'],
       '8xl': ['96px', '106px']
