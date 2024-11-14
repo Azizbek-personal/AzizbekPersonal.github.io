@@ -1,6 +1,6 @@
-const Footer = () => {
-    return <div>Footer</div>;
+const Services = () => {
+    return <div>Services</div>;
   };
   
-  export default Footer;
+  export default Services;
   

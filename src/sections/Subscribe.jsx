@@ -1,6 +1,6 @@
-const Footer = () => {
-    return <div>Footer</div>;
+const Subscribe = () => {
+    return <div>Subscribe</div>;
   };
   
-  export default Footer;
+  export default Subscribe;
   

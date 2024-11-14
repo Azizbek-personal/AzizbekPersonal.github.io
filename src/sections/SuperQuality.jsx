@@ -1,5 +1,5 @@
-const Footer = () => {
-  return <div>Footer</div>;
+const SuperQuality = () => {
+  return <div>SuperQuality</div>;
 };
 
-export default Footer;
+export default SuperQuality;
