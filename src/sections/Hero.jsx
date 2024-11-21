@@ -1,6 +1,8 @@
 import Button from '../components/Button';
 import { arrowRight } from '../assets/icons';
 import { statistics } from '../constants';
+import { bigShoe1 } from '../assets/images';
+import ShoeCard from '../components/ShoeCard';
 
 const Hero = () => {
   return (
@@ -24,8 +26,31 @@ const Hero = () => {
         <div className="mt-20 flex w-full flex-wrap items-start justify-start gap-16">
           {statistics.map((stat) => (
             <div key={stat.value}>
-              <p className='text-4xl font-palanquin font-bold'>{stat.value}</p>
-              <p className='leading-7 font-montserrat text-slate-gray'>{stat.label}</p>
+              <p className="font-palanquin text-4xl font-bold">{stat.value}</p>
+              <p className="font-montserrat leading-7 text-slate-gray">{stat.label}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="relative flex flex-1 items-center justify-center bg-primary bg-hero bg-cover bg-center max-xl:py-40 xl:min-h-screen">
+        <img
+          src={bigShoe1}
+          alt="Shoe collection "
+          width={610}
+          height={500}
+          className="relative z-10 object-contain"
+        />
+
+        <div>
+          {shoes.map((shoe) => (
+            <div key={shoe}>
+              <ShoeCard 
+              imgUrl={shoe}
+              changeBigShoeImage= 
+              {() => {}} 
+              bigShoeImg = ""
+              />
             </div>
           ))}
         </div>
